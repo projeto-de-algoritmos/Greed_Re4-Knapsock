@@ -1,4 +1,4 @@
-import { CartItem } from "../../models/item.model";
+import { CartItem, Item } from "../../models/item.model";
 
 import './styles.css';
 
