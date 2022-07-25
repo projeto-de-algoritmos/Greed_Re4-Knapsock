@@ -1,45 +1,63 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# MapShortestWay
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: undefined<br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0012200  | Douglas da Silva Monteles |
+| 17/0016838  |  Lucas Lopes Xavier |
+
+[Apresentação](https://drive.google.com/file/d/1TC3tLveqaee5OCNkwhaFvJRQB-qcMjH4/preview)
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O problema da mochila é um problema de otimização combinatória: dado um conjunto de itens, cada um com um peso e um valor, determine o número de cada item a ser incluído em uma coleção de modo que o peso total seja menor ou igual a um determinado limite e o valor total é o maior possível. Nesse sentido, aplicamos o algoritmo Knapsock no contexto do famoso jogo de PlayStation 2 chamado Resident Evil 4, onde o personagem principal possui uma maleta que pode ser lotada com itens. Esta maleta é uma matriz NxM e cada item ocupa um espaço também em formato de matriz AxB. No projeto desenvolvido, é possível ir adicionando itens na maleta e ao final, visualizar se a maleta está com os itens mais valiosos dado o espaço disponível. Neste problema, tivemos que adaptar o algoritmo Knapsock, uma vez que no jogo não é levada em consideração o peso dos itens, mas o espaço ocupado por eles.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### Figura 1: Tela Inicial
+
+![Tela Inicial](imgs/Tela01.png)
+
+### Figura 2: Tela com os pontos inseridos
+
+![Tela Inicial](imgs/Tela02.png)
+
+### Figura 3: Tela com os pontos conectados
+
+![Tela Inicial](imgs/Tela03.png)
+
+### Figura 4: Menor caminho entre os pontos 0 e 4
+
+![Tela Inicial](imgs/Tela04.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: ReactJS<br>
+
+### Pré-requisitos
+- Ter o NodeJS e NPM instalados
+- Possuir um navegador (De preferencia utilizar o Google Chrome ou derivado)
+
+### Baixando e executando o projeto
+
+  ```
+    git clone https://github.com/projeto-de-algoritmos/Greed_Re4-Knapsock.git
+
+    cd Greed_Re4-Knapsock
+    
+    cd frontend
+
+    npm install
+
+    npm start    
+  ```
+
+- Do seu navegador, acesse <a href="http://localhost:3000">http://localhost:3000</a>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Na página inicial, clique em "Começar", escolha os itens que serão adicionados na maleta e clique em "Ir para o resultado", será exibida uma tela com a mensagem se você tiver adicionado os itens corretamente ou uma mensagem de erro, caso contrário. Independente do resultado, você pode clicar no botão verde para visualizar os detalhes, o quais mostram os itens que você adicionou e os itens que deveriam ter sido adicionados.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+Utilize o navegador Google Chrome
