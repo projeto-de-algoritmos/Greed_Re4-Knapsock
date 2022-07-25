@@ -18,19 +18,23 @@ O problema da mochila é um problema de otimização combinatória: dado um conj
 
 ### Figura 1: Tela Inicial
 
-![Tela Inicial](imgs/Tela01.png)
+![Tela Inicial](screenshots/Tela01.png)
 
-### Figura 2: Tela com os pontos inseridos
+### Figura 2: Tela com os itens
 
-![Tela Inicial](imgs/Tela02.png)
+![Tela Inicial](screenshots/Tela02.png)
 
-### Figura 3: Tela com os pontos conectados
+### Figura 3: Tela para o caso de escolhas corretas de itens
 
-![Tela Inicial](imgs/Tela03.png)
+![Tela Inicial](screenshots/Tela03.png)
 
-### Figura 4: Menor caminho entre os pontos 0 e 4
+### Figura 4: Tela para o caso de escolhas erradas de itens
 
-![Tela Inicial](imgs/Tela04.png)
+![Tela Inicial](screenshots/Tela04.png)
+
+### Figura 5: Tela com os itens que você adicionou e os itens que deveriam ter sido adicionados
+
+![Tela Inicial](screenshots/Tela05.png)
 
 ## Instalação 
 **Linguagem**: Javascript<br>
