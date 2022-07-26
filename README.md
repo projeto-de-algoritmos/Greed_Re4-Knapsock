@@ -9,7 +9,7 @@
 | 19/0012200  | Douglas da Silva Monteles |
 | 17/0016838  |  Lucas Lopes Xavier |
 
-[Apresentação](https://drive.google.com/file/d/1TC3tLveqaee5OCNkwhaFvJRQB-qcMjH4/preview)
+[Apresentação](https://www.youtube.com/watch?v=zHeOzjMzG4E&ab_channel=LucasLopes)
 
 ## Sobre 
 O problema da mochila é um problema de otimização combinatória: dado um conjunto de itens, cada um com um peso e um valor, determine o número de cada item a ser incluído em uma coleção de modo que o peso total seja menor ou igual a um determinado limite e o valor total é o maior possível. Nesse sentido, aplicamos o algoritmo Knapsock no contexto do famoso jogo de PlayStation 2 chamado Resident Evil 4, onde o personagem principal possui uma maleta que pode ser lotada com itens. Esta maleta é uma matriz NxM e cada item ocupa um espaço também em formato de matriz AxB. No projeto desenvolvido, é possível ir adicionando itens na maleta e ao final, visualizar se a maleta está com os itens mais valiosos dado o espaço disponível. Neste problema, tivemos que adaptar o algoritmo Knapsock, uma vez que no jogo não é levada em consideração o peso dos itens, mas o espaço ocupado por eles.
